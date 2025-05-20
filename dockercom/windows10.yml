@@ -3,12 +3,14 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "10"
+      VERSION: "https://github.com/win10lite/download/releases/download/download/Windows.10.Lite.Edition.19H2.x64.iso"
       USERNAME: "MASTER"
       PASSWORD: "admin@123"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
-      DISK_SIZE: "200G"
+      DISK_SIZE: "64G"
+      REGION: "en-US"
+      KEYBOARD: "en-US"
     devices:
       - /dev/kvm
       - /dev/net/tun

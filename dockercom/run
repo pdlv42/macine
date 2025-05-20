@@ -1,2 +1,4 @@
+sudo df -h
+
 cd dockercom
 sudo docker-compose -f windows10.yml up
