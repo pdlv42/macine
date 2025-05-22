@@ -1,5 +1,5 @@
 sudo df -h
 
 mkdir /tmp/dockercom
-cp dockercom/windows10.yml /tmp/dockercom/
-sudo docker-compose -f /tmp/dockercom/windows10.yml up
+cp dockercom/windows11.yml /tmp/dockercom/
+sudo docker-compose -f /tmp/dockercom/windows11.yml up
