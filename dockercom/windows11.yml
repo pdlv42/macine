@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/tiny11-2311/tiny11%202311%20x64.iso"
+      VERSION: "https://ia902302.us.archive.org/9/items/ghost-spectre-windows-11/WIN11.PRO.21H2.SUPERLITE%2BCOMPACT.X64.%28WPE%29%20%281%29.ISO"
       USERNAME: "MASTER"
       PASSWORD: "admin@123"
       RAM_SIZE: "8G"
